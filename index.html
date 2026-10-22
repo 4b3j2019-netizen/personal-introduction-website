@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="cinthia 的平面設計師個人介紹與作品集，分享海報設計、產品包裝和品牌視覺創作。"
+    >
+    <meta name="theme-color" content="#fbfaf8">
+    <title>cinthia | Graphic Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">跳至主要內容</a>
+
+    <nav class="site-nav" id="navigation" aria-label="主要導覽">
+      <a class="wordmark" href="#about" aria-label="cinthia，回到個人介紹">cinthia<span>.</span></a>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        type="button"
+        aria-controls="nav-links"
+        aria-expanded="false"
+        aria-label="開啟導覽選單"
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">個人介紹</a></li>
+        <li><a href="#portfolio">設計作品</a></li>
+        <li><a href="#experience">學經歷</a></li>
+        <li><a href="#personal-contact">個人特色與聯絡</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-content">
+      <header class="hero section-shell" id="about" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Graphic designer · Visual storyteller</p>
+          <h1 id="hero-title">你好，我是<br><span>cinthia.</span></h1>
+          <p class="hero-role">平面設計師 <span>/</span> Graphic Designer</p>
+          <p class="hero-intro">
+            我以海報設計整理品牌故事與活動情緒，也透過產品包裝把美感、功能和使用體驗放在一起思考。
+          </p>
+          <ul class="specialties" aria-label="專業方向">
+            <li>Poster Design <span>海報設計</span></li>
+            <li>Product Design <span>產品設計</span></li>
+          </ul>
+          <a class="button button-dark" href="#portfolio">
+            探索我的作品 <span aria-hidden="true">↘</span>
+          </a>
+        </div>
+        <figure class="hero-portrait">
+          <img
+            src="image/cover.png"
+            alt="短髮女性形象與設計理念的視覺作品；此圖為現有合成素材，正式使用前可替換個人照片"
+            fetchpriority="high"
+            width="1536"
+            height="1024"
+          >
+          <figcaption>設計，讓想法被看見。</figcaption>
+        </figure>
+        <p class="hero-index" aria-hidden="true">01 / 04</p>
+      </header>
+
+      <section class="section-shell section-block portfolio" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Selected visual studies</p>
+            <h2 id="portfolio-title">設計作品<span>.</span></h2>
+          </div>
+          <p class="section-summary">
+            以下使用專案現有視覺素材作為版面示意。素材是合成展示圖，並非可確認的獨立完稿作品；請以實際作品圖替換後再公開展示。
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              type="button"
+              data-project="poster"
+              aria-haspopup="dialog"
+              aria-label="查看海報視覺設計示意的說明"
+            >
+              <span class="project-image">
+                <img src="image/plan.png" alt="含多款海報版面的視覺提案合成圖" loading="lazy" width="1536" height="1024">
+                <span class="image-action">了解設計理念 <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="project-meta"><span>視覺示意 · 待替換實際作品</span><span>01</span></span>
+              <span class="project-title">海報視覺設計</span>
+              <span class="project-description">運用字體、留白與影像層次，為品牌故事或活動主題建立清晰的第一印象。</span>
+            </button>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              type="button"
+              data-project="packaging"
+              aria-haspopup="dialog"
+              aria-label="查看產品包裝設計示意的說明"
+            >
+              <span class="project-image">
+                <img src="image/stage.png" alt="設計工作情境與印刷品的合成展示圖" loading="lazy" width="1536" height="1024">
+                <span class="image-action">了解設計理念 <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="project-meta"><span>視覺示意 · 待替換實際作品</span><span>02</span></span>
+              <span class="project-title">產品包裝設計</span>
+              <span class="project-description">從產品特性與使用情境出發，讓包裝兼具辨識度、實用性與細膩質感。</span>
+            </button>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              type="button"
+              data-project="brand"
+              aria-haspopup="dialog"
+              aria-label="查看品牌視覺設計示意的說明"
+            >
+              <span class="project-image">
+                <img src="image/member.png" alt="品牌識別與產品包裝的合成視覺展示圖" loading="lazy" width="1536" height="1024">
+                <span class="image-action">了解設計理念 <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="project-meta"><span>視覺示意 · 待替換實際作品</span><span>03</span></span>
+              <span class="project-title">品牌視覺識別</span>
+              <span class="project-description">以一致的色彩、圖像與版面語言，建立易辨識且能延伸應用的品牌印象。</span>
+            </button>
+          </article>
+
+          <article class="project-card">
+            <button
+              class="project-trigger"
+              type="button"
+              data-project="campaign"
+              aria-haspopup="dialog"
+              aria-label="查看創意視覺提案示意的說明"
+            >
+              <span class="project-image">
+                <img src="image/cover.png" alt="設計師人像與概念文字構成的創意視覺合成圖" loading="lazy" width="1536" height="1024">
+                <span class="image-action">了解設計理念 <span aria-hidden="true">↗</span></span>
+              </span>
+              <span class="project-meta"><span>視覺示意 · 待替換實際作品</span><span>04</span></span>
+              <span class="project-title">創意概念提案</span>
+              <span class="project-description">以視覺敘事串連概念與情緒，將抽象想法轉化為容易理解的畫面。</span>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell section-block experience" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Education · Practice · Skills</p>
+            <h2 id="experience-title">學經歷<span>.</span></h2>
+          </div>
+          <p class="section-summary">以清楚的脈絡整理學習、實務與專業方向；未提供的名稱保留為待填欄位。</p>
+        </div>
+
+        <div class="experience-layout">
+          <div class="timeline" aria-label="學歷與工作經驗">
+            <article class="timeline-item">
+              <p class="timeline-label">學歷</p>
+              <div>
+                <h3>大學｜學校與科系名稱待補</h3>
+                <p>可補上就讀期間、主修領域與相關學習經歷。</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <p class="timeline-label">工作經驗</p>
+              <div>
+                <h3>平面設計相關工作｜累積 2 年</h3>
+                <p>參與設計需求整理、視覺發想、版面製作與完稿交付；公司名稱及任職期間待補。</p>
+              </div>
+            </article>
+            <article class="timeline-item">
+              <p class="timeline-label">專案參與</p>
+              <div>
+                <h3>海報、包裝與品牌視覺</h3>
+                <p>可依實際經歷補入專案內容、個人負責範圍與成果連結；此處不預設客戶或成績。</p>
+              </div>
+            </article>
+          </div>
+
+          <aside class="skills-panel" aria-labelledby="skills-title">
+            <p class="eyebrow">Areas of practice</p>
+            <h3 id="skills-title">設計專長</h3>
+            <ul class="skill-tags">
+              <li>海報設計</li>
+              <li>產品包裝</li>
+              <li>品牌視覺</li>
+              <li>版面編排</li>
+              <li>視覺敘事</li>
+            </ul>
+            <p>專長內容可依實際服務項目調整。</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-shell section-block personal-contact" id="personal-contact" aria-labelledby="personal-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Ideas · Everyday · Collaboration</p>
+            <h2 id="personal-title">個人特色與聯絡<span>.</span></h2>
+          </div>
+        </div>
+
+        <div class="personal-grid">
+          <article class="philosophy-card">
+            <p class="eyebrow">My philosophy</p>
+            <h3>保持好奇，讓設計回應真實生活。</h3>
+            <p>我從攝影、閱讀、旅行與日常觀察累積靈感，再把感受整理成清楚、有溫度的視覺語言。</p>
+          </article>
+
+          <div class="personal-details">
+            <article class="detail-block">
+              <p class="eyebrow">Notes & journal</p>
+              <h3>設計觀察與創作筆記</h3>
+              <p>分享版面觀察、靈感來源與工作方法。文章內容可在日後補上並連結至實際文章頁。</p>
+              <span class="content-note">文章連結待補</span>
+            </article>
+
+            <article class="detail-block">
+              <p class="eyebrow">Design services</p>
+              <h3>讓想法成為完整的視覺體驗。</h3>
+              <p>提供海報設計、產品包裝與品牌視覺設計服務，從概念梳理、視覺發展到應用延伸，依需求討論合作方式。</p>
+              <a class="button button-outline" href="#contact">洽詢合作 <span aria-hidden="true">↘</span></a>
+            </article>
+          </div>
+        </div>
+
+        <div class="contact-panel" id="contact" aria-labelledby="contact-title">
+          <div>
+            <p class="eyebrow">Get in touch</p>
+            <h3 id="contact-title">一起聊聊你的設計需求。</h3>
+            <p>以下聯絡資訊為待替換佔位內容，請發布前更新成自己的電子郵件與帳號網址。</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-dark" href="mailto:your.email@example.com?subject=設計合作詢問">
+              寄送合作詢問 <span aria-hidden="true">↗</span>
+            </a>
+            <ul class="social-links" aria-label="社群平台">
+              <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram <span>平台入口 ↗</span></a></li>
+              <li><a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">Behance <span>平台入口 ↗</span></a></li>
+              <li><a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">Dribbble <span>平台入口 ↗</span></a></li>
+              <li><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub <span>平台入口 ↗</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark" href="#about">cinthia<span>.</span></a>
+      <p>© <span id="copyright-year">2026</span> cinthia · Graphic Designer</p>
+      <a class="back-to-top-link" href="#about">回到頁首 ↑</a>
+    </footer>
+
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="回到頁面頂端">
+      <span aria-hidden="true">↑</span>
+    </button>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+      <div class="dialog-header">
+        <p class="eyebrow">Visual study · Sample asset</p>
+        <button class="dialog-close" id="dialog-close" type="button" aria-label="關閉作品說明">關閉 <span aria-hidden="true">×</span></button>
+      </div>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-category" id="dialog-category"></p>
+      <p class="dialog-description" id="dialog-description"></p>
+      <p class="dialog-note">目前顯示的是專案內既有的合成示意素材，並非已確認的獨立作品成果。公開前請替換為實際作品與經確認的說明。</p>
+      <a class="dialog-image-link" id="dialog-image-link" href="#" target="_blank" rel="noopener noreferrer">
+        <img id="dialog-image" src="" alt="">
+        <span>在新分頁查看圖片 ↗</span>
+      </a>
+    </dialog>
+  </body>
+</html>
